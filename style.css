@@ -47,6 +47,7 @@ h2 {
 .perfil-texto {
     text-align: left;
     font-size: 0.8rem;
+    line-height: 1.5;
 }
 
 img {
@@ -69,6 +70,7 @@ ul {
 ul li {
     font-size: 1rem;
     margin: 5px 0;
+    margin-bottom: 15px;
     
 }
 

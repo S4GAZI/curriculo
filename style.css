@@ -1,0 +1,86 @@
+/* Importação da fonte no topo */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Definição do fundo com o GIF */
+body {
+    background-image: url('https://i.gifer.com/VIKf.gif'); /* Define a imagem de fundo como um GIF */
+    background-size: cover; /* Faz com que o fundo cubra toda a tela */
+    background-position: center; /* Centraliza o GIF na tela */
+    background-repeat: no-repeat; /* Não repete o GIF */
+    font-family: 'Press Start 2P', cursive; /* Define a fonte do texto */
+    color: white; /* Define a cor do texto como branca */
+    margin: 0; /* Remove margens padrão */
+    display: flex; /* Define o layout como flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: flex-start; /* Alinha o conteúdo no topo */
+    min-height: 100vh; /* Define a altura mínima da página como 100% da altura da janela */
+    text-align: center; /* Centraliza o texto por padrão */
+}
+
+
+.container {
+    background-color: #1c1c1c; /* Define a cor de fundo da caixa como cinza escuro */
+    padding: 30px; /* Define o espaçamento interno da caixa */
+    border-radius: 0px; /* Arredonda os cantos da caixa */
+    width: 90%; /* Define a largura da caixa como 90% da tela */
+    max-width: 800px; /* Define a largura máxima da caixa */
+    display: flex; /* Define o layout como flexível */
+    flex-direction: column; /* Alinha os itens na coluna */
+    align-items: center; /* Centraliza os itens na caixa */
+    margin: 20px auto; /* Adiciona margens superior e inferior de 20px e centraliza horizontalmente */
+    box-shadow: 8px 5px 5px rgb(16, 16, 16);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 30px 0;
+    color: rgb(136, 63, 136);
+}
+
+h2 {
+    font-size: 0.9rem;
+    margin: 15px 0;
+    text-align: center;
+    color: rgb(136, 63, 136);
+}
+
+.perfil-texto {
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid rgb(136, 63, 136);
+    margin-bottom: 20px;
+    box-shadow: 8px 5px 5px rgb(16, 16, 16);
+}
+
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1rem;
+    margin: 5px 0;
+    
+}
+
+.card-container {
+    display: flex;
+    grid-gap: 1rem;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.card {
+    border: 5px solid rgb(136, 63, 136);
+    padding: 1rem;
+    box-shadow: 8px 5px 5px rgb(16, 16, 16);
+}
